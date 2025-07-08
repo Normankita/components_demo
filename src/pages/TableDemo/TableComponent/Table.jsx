@@ -3,16 +3,16 @@ import TableComponent from 'awesome-table-component';
 
 const data = [
   { name: 'Norman', email: 'norman@example.com', role: 'Admin' },
-  { name: 'Jane', email: 'jane@example.com', role: 'User' },
+  { name: 'Zahra', email: 'zahra@example.com', role: 'User' },
 ];
 
 const headers = ['name', 'email', 'role'];
 
 const Table = () => {
   return (
-    <div className=''>
+    <section className=''>
       <TableComponent title="User List" ItemData={data} headers={headers} />
-    </div>
+    </section>
   )
 }
 
